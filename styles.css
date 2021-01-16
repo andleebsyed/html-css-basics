@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+--primary-color :#6D28D9;
+--heading-color : #6B7280;
+
+}
+hr{
+    margin: 2rem 0rem;
+}
+.continer-fluid{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    /* text-align: center; */
+    padding-inline-start: 0px;
+    
+}
+.link{
+    text-decoration: none;
+    padding : 0.5rem , 1rem;
+}
+.primary-link{
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    width: max-content;
+    min-width: 140px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline li{
+    display: inline;
+    /* padding: 0rem 0.5rem; */
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;   
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 2rem;
+    color: var(--heading-color);
+}
+
+.hero .heading-inverted{
+    color: var(--primary-color);
+}
+
+.section h4{
+    text-align: center;
+    padding : 2rem;
+}
+.ow{
+    background-color: var(--heading-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer .social-links{
+    padding-inline-start: 0px;
+}
