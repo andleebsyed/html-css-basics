@@ -113,6 +113,7 @@ padding-right: 1rem;
     margin-top: 1rem; 
     padding: 2rem 0rem;
     margin-bottom: 1rem;
+    margin-left: 15px;
 }
 .ow{
     background-color: var(--gray-color);
@@ -166,4 +167,9 @@ padding-right: 1rem;
 
 .para{
     font-size: 1rem;
+}
+
+.marigin-style{
+ max-width: 300;
+  margin: 20px;
 }
